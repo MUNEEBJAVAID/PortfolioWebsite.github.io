@@ -1,0 +1,366 @@
+@media (min-width:849px) and (max-width:980px) {
+
+    .user-image {
+        width: 20rem;
+    }
+
+    .user-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .hero-section-subHeading {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .project-section {
+        margin-top: -1rem;
+    }
+
+    .project-container {
+        max-width: 95%;
+        gap: 81px;
+    }
+
+    .projectCard {
+        height: 485px;
+    }
+
+    .projectNumber {
+        font-size: 172px;
+    }
+
+    .rightNumber {
+        right: -20px;
+        top: -45px;
+    }
+
+    .leftNumber {
+        left: -23px;
+    }
+
+    #project2,
+    #project4 {
+        align-self: unset;
+    }
+
+    .projectCard {
+        width: unset;
+    }
+
+    .projectContentRight,
+    .projectContentLeft {
+        right: 0%;
+        padding: unset;
+    }
+
+
+}
+
+
+@media (min-width:616px) and (max-width:849px) {
+
+    .hero-section {
+        flex-direction: column;
+
+    }
+
+    .hero-section-left {
+        align-items: center;
+    }
+
+    .hero-section-subHeading {
+        font-size: 2.5rem;
+    }
+
+    .hero-section-description {
+        text-align: center;
+        width: 96%;
+        font-size: 1.7rem;
+        color: #8a8a8a;
+    }
+
+
+    .hero-section-right {
+        order: -1;
+    }
+
+    .user-image {
+        width: 22rem;
+    }
+
+    .user-image img {
+        width: 100%;
+    }
+
+    .fadded-text {
+        bottom: -8%;
+    }
+
+    .project-section {
+        margin-top: -1rem;
+    }
+
+    .project-container {
+        max-width: 95%;
+        gap: 81px;
+    }
+
+    .projectCard {
+        height: 485px;
+    }
+
+    .projectNumber {
+        font-size: 9rem;
+    }
+
+    .rightNumber {
+        right: -20px;
+        top: -45px;
+    }
+
+    .leftNumber {
+        left: -23px;
+    }
+
+    #project2,
+    #project4 {
+        align-self: unset;
+    }
+
+    .projectCard {
+        width: unset;
+    }
+
+    .projectHeading {
+        font-size: 2.5rem;
+    }
+
+    .projectContentRight,
+    .projectContentLeft {
+        right: 0%;
+        width: 66%;
+        padding: unset;
+    }
+}
+
+
+@media (max-width:616px) {
+
+header{
+    flex-direction: column;
+}
+    .hero-section {
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+
+
+    .hero-section-left {
+        align-items: center;
+        gap: 1.3rem;
+    }
+
+    .hero-section-subHeading {
+        font-size: 2.5rem;
+    }
+
+    .hero-section-description {
+        color: #8a8a8a;
+        text-align: center;
+        width: 97%;
+        font-size: 1.2rem;
+    }
+
+
+    .hero-section-right {
+        order: -1;
+    }
+
+
+    .project-container {
+        max-width: 95%;
+        gap: 81px;
+    }
+
+
+    #project2,
+    #project4 {
+        align-self: unset;
+    }
+
+    .projectCard {
+        width: unset;
+        height: 400px;
+    }
+
+    .projectContentRight,
+    .projectContentLeft {
+        right: 0%;
+        width: 66%;
+        padding: unset;
+    }
+
+    .fadded-text {
+        font-size: 4.5em;
+        bottom: -10%;
+        left: -2%;
+    }
+
+    .project_heading {
+        font-size: 4rem;
+    }
+
+    .rightNumber,
+    .leftNumber {
+        left: unset;
+        right: -1px;
+        top: -20px;
+    }
+
+    .projectNumber {
+        font-size: 6rem;
+    }
+
+    .projectContent {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        bottom: unset;
+        width: 90%;
+    }
+
+    .projectHeading {
+        font-size: 1.5rem;
+    }
+
+    .projectSubHeading {
+        width: 90%;
+        font-size: 12px;
+    }
+
+
+
+    .user-image img {
+        width: 100%;
+    }
+
+
+    .nav-items {
+        padding: 1rem 0.4em;
+    }
+
+    .hero-section-subHeading {
+        font-size: 1.3rem;
+    }
+
+    .projectCard:hover .projectContent {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1.1);
+        padding-left: 1rem;
+    }
+
+    .projectSkillsContainer img {
+        width: 27px;
+    }
+
+    .btnProject {
+        padding: 0.5rem 0.5rem;
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width:350px) and (max-width:982px) {
+
+    .skillsSection {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 5rem;
+        margin-bottom:unset;
+    }
+
+    .skillsFaddedText{
+display: none;
+    }
+    .subHeading {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .skillsHeading {
+        text-align: center;
+        margin-bottom: 0.2em;
+        font-size: 43px;
+    }
+
+    .skllsSectionRight {
+        width: 100%;
+        margin-right: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(22px, 65px));
+        gap: 6rem;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .skillsLogo:hover {
+        transform: scale(1.1);
+    }
+
+    .contactUsHeading {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+        text-align: center;
+    }
+    .contactUsSubHeading {
+        font-size: unset;
+        text-align: center;
+    }
+    
+    .formContainer {
+        width: 97%;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    .formField {
+     
+        font-size: 14px;
+    }
+    
+    footer {
+        padding: 5rem 0;
+    }
+    
+    .faddedText {
+        left: 10px;
+        bottom: -10px;
+    }
+    
+    .footerContainer {
+        height: 7em;
+        gap: 1.5em;
+        flex-direction: column;
+    }
+    
+    
+    #submitBtn {
+        font-size: 1.1rem;
+        align-self: center;
+    }
+    
+    .submitIcon {
+        padding: 0 1rem;
+        font-size: 1.2rem;
+    }
+}
+
